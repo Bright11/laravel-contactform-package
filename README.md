@@ -15,7 +15,7 @@
 ## php artisan vendor:publish --tag=bright-config
 ## php artisan vendor:publish --tag=bright-css
 
- This command will publish a bright_config.php file in your config directory and publish bright-css in your public directory. You can customize the admin email address by setting the ADMIN_EMAIL variable in your .env file.
+ This command will publish a bright_config.php file in your config directory and publish bright in your public directory. You can customize the admin email address by setting the ADMIN_EMAIL variable in your .env file.
  you can change the image and update the contact information on your config folder/ bright-config
 
 ## usage
