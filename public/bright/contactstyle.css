@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url(bright-colors.css);
+
+body,html{
+    background-color: var(--backgroun-color);
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.bright_section{
+    max-width: 90%;
+    margin: 30px auto;
+
+}
+.bright_form_div{
+    background-color: var( --container-color);
+    padding: 10px 10px;
+    max-width: 70%;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+.bright-contactform_container{
+    display: flex;
+    gap: 10px;
+}
+.bright-contat-sidebar{
+    flex-basis: 20%;
+    background-color: var(--form-color);
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.brightform_div{
+    flex-basis: 80%;
+    background-color: var(--form-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.bright-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.brigt-form-icon{
+    display: flex;
+    padding: 4px;
+    background-color: var(--input-color);
+    border-radius: 10px;
+}
+.brigt-form-icon input{
+    flex-basis: 95%;
+    padding: 8px;
+    border: none;
+    background-color: var(--input-color);
+    outline: none;
+    border-radius: 10px;
+}
+.bright_icon{
+    flex-basis: 5%;
+}
+.bright_icon img{
+    width: 20px;
+    height: 20px;
+}
+.brigt-form-icon textarea{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: var(--input-color);
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+}
+.bright_form_btn{
+    background-color: var(--container-color);
+    color: var( --white-color);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+/* sidebar info styling */
+.bright-contat-sidebar{
+    width: 100%;
+}
+.bright_info_details h1,h3{
+    margin: 5px 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.bright_info_details a,p{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.bright-contat-sidebar img{
+   width: 250px;
+   height: 200px;
+   object-fit: cover;
+}
+.bright_error{
+    color: var(--error);
+    font-size: 16px;
+    background-color: var( --container-color);
+    width: fit-content;
+    font-weight: bold;
+}
+.bright_success{
+    width: max-content;
+    margin: 0px auto;
+    align-items: center;
+}
+.bright_success p{
+    color: var(--container-color);
+}
+@media(max-width:900px){
+    .bright_form_div{
+        background-color: var( --container-color);
+        padding: 10px 10px;
+        max-width: 90%;
+        margin: 0px auto;
+    }
+    .bright-contactform_container{
+        display: flex;
+        flex-direction: column;
+    }
+.bright-contat-sidebar{
+    background-color: var(--form-color);
+    border-radius: 8px;
+    padding: 5px auto;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.bright_info_details{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: max-content;
+    margin: 0px auto;
+}
+.bright_info_details h1 ,h3{
+    margin: 8px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    color: var( --black);
+}
+.bright_info_details a,p{
+    font-size: 20px;
+    font-weight: 300;
+    color:var( --black);
+    text-decoration: none;
+}
+.bright-contat-sidebar img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+/* brightform_div */
+.brightform_div{
+    background-color: var(--form-color);
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.bright-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.brigt-form-icon{
+    display: flex;
+    align-items: center;
+    background-color: var(--input-color);
+    padding: 5px;
+    border-radius: 10px;
+}
+.brigt-form-icon input{
+    flex-basis: 95%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.bright_icon{
+    flex-basis: 5%;
+}
+.bright_icon img{
+    width: 25px;
+    height: 25px;
+}
+.brigt-form-icon textarea{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    resize: none;
+}
+.bright_form_btn{
+    background-color: var(--container-color);
+    color: var( --white-color);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+}

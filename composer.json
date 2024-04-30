@@ -1,0 +1,24 @@
+{
+    "name": "bright/contactform",
+    "description": "Laravel package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bright\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Bright\\Contactform\\contactadminmailServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Bright C Web developer"
+        }
+    ],
+    "minimum-stability": "dev"
+}
