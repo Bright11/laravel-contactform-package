@@ -12,7 +12,8 @@
 ## Configuration
  After installation, publish the configuration file to customize your contact form settings:
 
-## php artisan vendor:publish tag=bright-config
+## php artisan vendor:publish --tag=bright-config
+## php artisan vendor:publish --tag=bright-css
 
  This command will publish a bright_config.php file in your config directory. You can customize the admin email address by setting the ADMIN_EMAIL variable in your .env file.
 
